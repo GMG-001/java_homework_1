@@ -14,6 +14,10 @@ public class Main {
         //method overriding-სი მაგალითი
         dog.setColor();
         puppy.setColor();
+        System.out.println(dog.getName());
+        System.out.println(puppy.getName());
+        System.out.println(dog.getSex());
+        System.out.println(puppy.getSex());
 
         //method overloading-ის მაგალითი
         System.out.println(puppy.color);
